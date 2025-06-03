@@ -10,4 +10,8 @@ public:
     x = a;
     x = b;
   }
+  void display() {
+    cout << "x = " << x << endl;
+    cout << "y = " << y << endl;
+  }
 };
